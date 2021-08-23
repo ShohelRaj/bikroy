@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'PF DinText Pro', Arial, Helvetica, sans-serif;
+}
+
+/* coomon css start */
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    color: #0074ba;
+    text-decoration: none;
+}
+svg.svg-wrapper--8ky9e {
+    fill: white;
+}
+
+.icon--3D09z {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    fill: #fff;
+    display: inline-block;
+    pointer-events: none;
+}
+/* common css end*/
+#adds{
+    background: #e7edee;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.container img{
+    width: 100%;
+}
+#header{
+    background: #149777;
+    color: white;
+    padding-bottom: 40px;
+    margin-top: -4px;
+}
+.wreaper{
+    overflow: hidden;
+}
+.leftSide{
+    width: 50%;
+    float: left;
+}
+.leftSide .logoArea {
+    width: 31%;
+    float: left;
+    padding: 23px 0px;
+}
+.leftSide .logoArea svg {
+    width: 167px;
+}
+.leftSide .logoArea svg g{
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    fill: #fff;
+    display: inline-block;
+    pointer-events: none;
+}
+.leftSide .btnAds {
+    width: 42%;
+    float: left;
+    margin-left: 18px;
+    font-size: 18px;
+    padding: 21px 0px;
+}
+.btnAds a {
+    color: white;
+    margin-left: 8px;
+}
+.btnAds a button {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: transparent;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.rightSide {
+    width: 50%;
+    float: left;
+    padding-top: 14px;
+}
+.iconCharrt {
+    width: 100px;
+    overflow: hidden;
+}
+.iconCharrt .icon {
+    width: 30%;
+    margin-top: 6px;
+    float: left;
+}
+.iconCharrt span {
+    color: white;
+    margin-top: 13px;
+    float: left;
+    width: 70px;
+    display: block;
+}
+.rightSide a {
+    width: 84px;
+    float: left;
+}
+.rightSide button {
+    padding: 14px 17px;
+    text-transform: uppercase;
+    color: white;
+    background: tomato;
+    letter-spacing: 1px;
+    float: right;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.option {
+    margin-left: 208px;
+}
+select {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    margin-left: 14px;
+    background: transparent;
+    width: 100%;
+    font-family: 'FontAwesome', 'Second Font name';
+    text-align: center;
+    cursor: pointer;
+}
+.Sellection {
+    width: 180px;
+    background: #097157;
+    border-radius: 67px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+.searchbox {
+    width: 762px;
+    height: 55px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 36px;
+    overflow: hidden;
+}
+.searchbox .bx {
+    width: 699px;
+    height: 100%;
+    float: left;
+}
+.searchbox .bx input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.iconx {
+    width: 58px;
+    height: 50px;
+    float: left;
+    background: tomato;
+    border-radius: 76px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.iconx .svg-wrapper--8ky9e{
+    fill: #ddd;
+    margin: 10px 15px;
+}
+.searchbox .bx input::placeholder{
+    font-size: 20px;
+    color: rebeccapurple;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.searchbox .bx input:focus::placeholder{
+    font-style: normal;
+}
+
+
+/* browser */
+
+
+section#browser {
+    margin-bottom: 50px;
+    margin-top: 39px;
+}
+section#browser .post {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+section#browser {
+    margin-bottom: 25px;
+    margin-top: 39px;
+}
+section#browser .post {
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    column-count: 4;
+}
+.singlePost {
+    width: 250px;
+}
+.singlePost .iconPost {
+    width: 50px;
+    float: left;
+}
+.singlePost .disCbtion {
+    width: 200px;
+    float: left;
+}
+.singlePost .disCbtion h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 4px;
+}
+.singlePost .disCbtion span {
+    font-size: 12px;
+}
+span#heading-a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* box section  */
+section#boxSection {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+section#boxSection .bosWraper {
+    overflow: hidden;
+    width: 96%;
+}
+.bosWraper .leftBox {
+    width: 50%;
+    float: left;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+}
+.leftBox .logoBox {
+    width: 28%;
+    float: left;
+    margin-right: 10px;
+    padding: 18px 0px;
+    box-sizing: border-box;
+}
+.discribtionBOx {
+    width: 64%;
+    padding: 16px;
+    float: left;
+}
+.discribtionBOx h4 {
+    font-size: 26px;
+    margin-bottom: 13px;
+}
+.discribtionBOx span {
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+.discribtionBOx button svg {
+    width: 25px;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    fill: #ddd;
+}
+.discribtionBOx button {
+    background: tomato;
+    font-size: 18px;
+    border: 1px solid;
+    position: relative;
+    border-radius: 25px;
+    padding: 10px 39px;
+    cursor: pointer;
+}
+.leftBox .logoBox svg {
+    width: 145px;
+}
+.rightBox .logo svg {
+    fill: #0066ff8c;
+}
+.bosWraper .rightBox {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.rightBox .logo {
+    width: 178px;
+    margin: 17px 0px;
+}
+.rightBox span {
+    font-size: 16px;
+    margin-bottom: 16px;
+    display: block;
+    font-family: auto;
+}
+.rightBox .logo {
+    width: 178px;
+    margin: 17px 0px;
+}
+
+.rightBox span {
+    font-size: 16px;
+    margin-bottom: 16px;
+    display: block;
+    font-family: auto;
+}
+.rightBox button {
+    position: relative;
+    font-size: 22px;
+    background: #0066ff8c;
+    border-radius: 33px;
+    padding-left: 27px;
+    padding-right: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.rightBox button svg {
+    position: absolute;
+    width: 22px;
+    right: 12px;
+    top: 9px;
+    fill: #ddd;
+}
+.bosWraper {
+    box-shadow: 1px 4px 22px;
+    padding: 50px 18px;
+    border-radius: 9px;
+}
+
+/* another */
+
+section#links {
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+span.box-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: block;
+}
+.singleBoxPost {
+    width: 21%;
+    float: left;
+}
+.singleBoxPost {
+    width: 20%;
+    height: 129px;
+    float: left;
+    border-radius: 7px;
+    background: #ddd;
+    padding: 14px;
+    margin-right: 27px;
+}
+.singleBoxPost h6 {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+.singleBoxPost a {
+    color: #3c3c34;
+    font-size: 17px;
+    font-family: ui-monospace;
+    padding: 5px;
+}
+.wraper {
+    overflow: hidden;
+}
+
+/* footer  */
+
+.foter::before{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background-color: green;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background: green;
+    margin-bottom: 23px;
+}
+.downLoadAp span {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.appLink .logo {
+    float: left;
+    margin-right: 7px;
+}
+.downLoadAp {
+    width: 269px;
+    float: left;
+    margin-left: 33px;
+}
+.otherCountry a {
+    margin-right: 8px;
+}
+.linkFb {
+    display: block;
+    margin-top: 40px;
+}
+.linkFb a {
+    font-size: 20px;
+}
+.linkFb i {
+    margin-right: 5px;
+}
+.morebikroy {
+    width: 183px;
+    float: left;
+    margin-left: 20px;
+}
+.morebikroy span {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.morebikroy a {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+.help {
+    width: 177px;
+    float: left;
+    margin-left: 20px;
+}
+.help span {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.help a {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+.follow {
+    width: 139px;
+    float: left;
+    margin-left: 20px;
+}
+.follow span {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.follow a {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+.about {
+    width: 155px;
+    float: left;
+    margin-left: 20px;
+}
+.about span {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.about a {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 15px;
+}
+.footerWrape {
+    overflow: hidden;
+    margin-bottom: 56px;
+}
+hr {
+    margin-bottom: 16px;
+}
+span.footerlogo svg {
+    fill: black;
+}
+span.ff {
+    font-size: 17px;
+}
+span.footerlogo.ff {
+    width: 125px;
+    float: right;
+    display: block;
+}
+.copyRight {
+    margin-bottom: 36px;
+}
